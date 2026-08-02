@@ -1,8 +1,12 @@
 //01 de agosto de 2026. Sábado. Fim de tarde frio.
 
 #include <iostream>
+#include <locale.h>
 
 int main(){
-    std::cout << "Olá mundo!" << std::endl;
+
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
+    std::cout << "Ol�, mundo!" << std::endl;
     return 0;
 }
