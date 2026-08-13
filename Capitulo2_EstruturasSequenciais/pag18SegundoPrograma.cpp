@@ -10,7 +10,7 @@ using namespace std;
 int main(){
     setlocale(LC_ALL,"Portuguese_Brazil");  //Permite a acentuação gráfica
     
-    cout << "Ol�, Mundo!" << endl;
+    cout << "Olá, Mundo!" << endl;
     
     return 0;
 

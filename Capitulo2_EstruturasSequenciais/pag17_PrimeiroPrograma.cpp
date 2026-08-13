@@ -7,6 +7,6 @@ int main(){
 
     setlocale(LC_ALL, "Portuguese_Brazil");
 
-    std::cout << "Olá, mundo!" << std::endl;
+    std::cout << "OlÃ¡, mundo!" << std::endl;
     return 0;
 }
